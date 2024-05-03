@@ -1,0 +1,6 @@
+Private Sub Command1_Click()
+
+Text3.Text = Val(Text1.Text) + Val(Text2.Text)
+End Sub
+
+

@@ -1,0 +1,17 @@
+Private Sub Dir1_Change()
+File1.Path = Dir1.Path
+File1.Pattern = "*.jpg;*.gif;*.wmf"
+End Sub
+
+Private Sub Drive1_Change()
+Dir1.Path = Drive1.Path
+File1.Path = Dir1.Path
+End Sub
+
+Private Sub File1_Click()
+Image1.Picture = LoadPicture(Dir1.Path & "\" & File1.FileName)
+End Sub
+
+Private Sub Form_Load()
+File1.Pattern = "*.jpg;*.gif;*.wmf;*.bmp"
+End Sub

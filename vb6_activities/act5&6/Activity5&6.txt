@@ -1,0 +1,11 @@
+Private Sub Text1_DblClick()
+'MsgBox "more pa!!!!", vbCritical
+End Sub
+
+Private Sub Form_Load()
+datelbl.Caption = Date
+End Sub
+
+Private Sub Timer1_Timer()
+timelbl.Caption = Time
+End Sub

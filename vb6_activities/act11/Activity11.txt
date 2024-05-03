@@ -1,0 +1,11 @@
+Private WithEvents voice As SpVoice
+
+Private Sub Command1_Click()
+Set voice = New SpVoice
+voice.Volume = 100
+voice.Speak Text1, SVSFlagsAsync
+End Sub
+
+*Note: in Project MEnu click References den choose MS Voice Object Library
+ 
+

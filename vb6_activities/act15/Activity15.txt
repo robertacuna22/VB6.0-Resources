@@ -1,0 +1,23 @@
+Private Sub cancmd_Click()
+usertxt.Text = ""
+passtxt.Text = ""
+usertxt.SetFocus
+End Sub
+
+Private Sub licmd_Click()
+If passtxt.Text = "negotech" And usertxt.Text = "hb" Then
+‘MsgBox " Welcome ADMIN! ", vbInformation
+MsgBox "WELCOME", vbInformation + vbOKOnly
+MsgBox "Are you sure?", vbQuestion + vbYesNo
+MsgBox "Do you want to try another input", vbQuestion + vbAbortRetryIgnore
+MsgBox "Invalid Username and Password", vbCritical + vbRetryCancel
+MsgBox "tip of the day", vbInformation
+ElseIf passtxt.Text = "one" And usertxt.Text = "juan" Then
+MsgBox " Welcome MEMBER! ", vbInformation
+Else
+MsgBox "Invalid Username and Password!!! ", vbCritical
+End If
+End Sub
+
+
+

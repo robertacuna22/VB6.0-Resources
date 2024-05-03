@@ -1,0 +1,31 @@
+Private Sub Command1_Click()
+Shape1.FillColor = vbGreen
+Shape1.BorderColor = vbBlue
+Shape1.BorderWidth = 3
+Frame1.BackColor = vbRed
+Shape2.FillColor = vbgray
+Shape3.FillColor = vbgray
+End Sub
+
+Private Sub Command2_Click()
+Shape2.FillColor = vbYellow
+Shape2.BorderColor = vbWhite
+Shape2.BorderWidth = 3
+Shape1.BorderWidth = 1
+Shape3.BorderWidth = 1
+Frame1.BackColor = vbGreen
+Shape1.FillColor = vbgray
+Shape3.FillColor = vbgray
+End Sub
+
+Private Sub Command3_Click()
+Shape3.FillColor = vbRed
+Shape3.BorderColor = vbWhite
+Frame1.BackColor = vbYellow
+Shape1.FillColor = vbgray
+Shape2.FillColor = vbgray
+End Sub
+
+Private Sub Command4_Click()
+End
+End Sub

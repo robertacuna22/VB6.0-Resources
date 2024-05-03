@@ -1,0 +1,21 @@
+
+Private Sub Text1_KeyPress(KeyAscii As Integer)
+If KeyAscii = 13 Then
+Text2.SetFocus
+End If
+End Sub
+
+Private Sub Text2_KeyPress(KeyAscii As Integer)
+If KeyAscii = 13 Then
+Text3.SetFocus
+End If
+End Sub
+
+Private Sub Text3_KeyPress(KeyAscii As Integer)
+If KeyAscii = 13 Then
+MsgBox "Thank You", vbInformation + vbOKOnly
+ElseIf KeyAscii = 27 Then
+MsgBox "Goodbye", vbInformation + vbOKOnly
+End
+End If
+End Sub

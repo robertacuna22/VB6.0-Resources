@@ -1,0 +1,50 @@
+Private Sub concmd_Click()
+    anstxt.Text = (ntxt.Text) + (numtxt.Text)
+End Sub
+
+Private Sub dividecmd_Click()
+    anstxt.Text = Val(ntxt.Text) / Val(numtxt.Text)
+End Sub
+
+Private Sub dotcmd_Click()
+    anstxt.Text = Val(ntxt.Text) * Val(numtxt.Text)
+End Sub
+
+Private Sub equalcmd_Click()
+If Val(ntxt.Text) = Val(numtxt.Text) Then
+    anstxt.Text = "True"
+Else
+    anstxt.Text = "False"
+End If
+End Sub
+Private Sub exitcmd_Click()
+    End
+End Sub
+
+Private Sub highcmd_Click()
+If Val(ntxt.Text) < Val(numtxt.Text) Then
+    anstxt.Text = "True"
+    Else
+    anstxt.Text = "False"
+End If
+End Sub
+
+Private Sub hlcmd_Click()
+    anstxt.Text = Val(ntxt.Text) <> Val(numtxt.Text)
+End Sub
+
+Private Sub lowcmd_Click()
+    anstxt.Text = Val(ntxt.Text) > Val(numtxt.Text)
+End Sub
+
+Private Sub minuscmd_Click()
+    anstxt.Text = Val(ntxt.Text) - Val(numtxt.Text)
+End Sub
+
+Private Sub modcmd_Click()
+    anstxt.Text = Val(ntxt.Text) Mod Val(numtxt.Text)
+End Sub
+
+Private Sub pluscmd_Click()
+    anstxt.Text = Val(ntxt.Text) + Val(numtxt.Text)
+End Sub

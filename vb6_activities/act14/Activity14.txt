@@ -1,0 +1,9 @@
+Private Sub Command1_Click()
+If Val(Text1.Text) >= 75 Then
+MsgBox "Passed", vbInformation
+Else
+MsgBox "Failed", vbCritical
+End If
+End Sub
+
+*Note: put Val to convert in real number.

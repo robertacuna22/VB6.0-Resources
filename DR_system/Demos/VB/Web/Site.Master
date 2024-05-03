@@ -1,0 +1,53 @@
+﻿<%@ Master Language="vb" AutoEventWireup="true" CodeBehind="Site.master.vb" Inherits="WebApplication3.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+	<title></title>
+	<link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+	<asp:ContentPlaceHolder ID="HeadContent" runat="server">
+	</asp:ContentPlaceHolder>
+</head>
+<body>
+	<form runat="server">
+	<div class="page">
+		<div class="header">
+			<div class="title">
+				<h1 style="vertical-align: middle">
+					E-iceblue
+				</h1>
+			</div>
+
+			<div runat="server" class="clear  hideSkiplink">
+				<div style="padding: 50px 1px 1px 180px" runat="server">
+					<asp:Label runat="server" Text="Enterprise-Class Component - Create, Modify, Convert, Print and View " Font-Bold="true" ForeColor="SteelBlue" Font-Names="Vernada" Font-Size="10pt"></asp:Label>
+				 <asp:LinkButton ID="LinkButton1" runat="server" Text="Word" OnClick="OnWordClick" Font-Bold="true" ForeColor="#003a84" Font-Names="Vernada" Font-Size="10pt"></asp:LinkButton>
+				 <asp:Label runat="server" Text="," Font-Bold="true" ForeColor="SteelBlue" Font-Names="Vernada" Font-Size="10pt"></asp:Label>
+				</div>
+
+				<div runat="server" style="padding:2px 1px 1px 180px">
+				<asp:LinkButton runat="server" Text="Excel" Font-Bold="true" ForeColor="#003a84" Font-Names="Vernada" Font-Size="10pt" OnClick="OnExcelClick"></asp:LinkButton>
+				<asp:Label Text="," runat="server" Font-Bold="true" ForeColor="SteelBlue" Font-Names="Vernada" Font-Size="10pt" ></asp:Label>
+
+				<asp:LinkButton ID="LinkButton2" runat="server" Text="PDF" Font-Bold="true" ForeColor="#003a84" Font-Names="Vernada" Font-Size="10pt" OnClick="OnPdfClick"></asp:LinkButton>
+				<asp:Label ID="Label1" Text="," Font-Bold="true" ForeColor="SteelBlue" Font-Names="Vernada" Font-Size="10pt" runat="server" ></asp:Label>
+
+				<asp:LinkButton ID="LinkButton3" runat="server" Text="Barcode" Font-Bold="true" ForeColor="#003a84" Font-Names="Vernada" Font-Size="10pt" OnClick="OnBarcodeClick"></asp:LinkButton>
+				<asp:Label ID="Label2" Text=",etc. in .NET, Silverlight and WPF." Font-Bold="true" ForeColor="SteelBlue" Font-Names="Vernada" Font-Size="10pt" runat="server" ></asp:Label>
+
+
+				</div>
+
+			</div>
+		</div>
+		<div>
+			<asp:ContentPlaceHolder ID="MainContent" runat="server" />
+		</div>
+		<div class="clear">
+		</div>
+	</div>
+	<div class="footer">
+	</div>
+	</form>
+</body>
+</html>

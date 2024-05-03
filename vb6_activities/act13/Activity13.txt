@@ -1,0 +1,19 @@
+Private Sub cancmd_Click()
+usertxt.Text = ""
+passtxt.Text = ""
+usertxt.SetFocus
+End Sub
+
+Private Sub exitcmd_Click()
+End
+End Sub
+
+Private Sub licmd_Click()
+If passtxt.Text = "negotech" And usertxt.Text = "hb" Then
+MsgBox " Welcome ADMIN! ", vbInformation
+ElseIf passtxt.Text = "one" And usertxt.Text = "juan" Then
+MsgBox " Welcome MEMBER! ", vbInformation
+Else
+MsgBox "Invalid Usernname and Password!!! ", vbCritical
+End If
+End Sub

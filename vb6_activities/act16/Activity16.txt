@@ -1,0 +1,5 @@
+Private Sub Command1_Click()
+If MsgBox("Are you sure", vbQuestion + vbYesNo, "Message") = vbYes Then
+End
+End If
+End Sub

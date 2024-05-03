@@ -1,0 +1,14 @@
+Line 189: Class ciaXPButton30.XPButton30 of control XPButton301 was not a loaded control class.
+Line 211: Class ciaXPButton30.XPButton30 of control XPButton302 was not a loaded control class.
+Line 195: The property name _ExtentX in XPButton301 is invalid.
+Line 196: The property name _ExtentY in XPButton301 is invalid.
+Line 197: The property name AutoSelectTheme in XPButton301 is invalid.
+Line 198: The property name Caption in XPButton301 is invalid.
+Line 208: The property name UseImageShadow in XPButton301 is invalid.
+Line 209: The property name LicValid in XPButton301 is invalid.
+Line 217: The property name _ExtentX in XPButton302 is invalid.
+Line 218: The property name _ExtentY in XPButton302 is invalid.
+Line 219: The property name AutoSelectTheme in XPButton302 is invalid.
+Line 220: The property name Caption in XPButton302 is invalid.
+Line 230: The property name UseImageShadow in XPButton302 is invalid.
+Line 231: The property name LicValid in XPButton302 is invalid.

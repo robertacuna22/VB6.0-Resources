@@ -1,0 +1,54 @@
+Line 46: Class MSDataGridLib.DataGrid of control DataGrid1 was not a loaded control class.
+Line 159: Class MSAdodcLib.Adodc of control Adodc1 was not a loaded control class.
+Line 254: Class ciaXPButton30.XPButton30 of control LoginCmd was not a loaded control class.
+Line 309: Class ciaXPButton30.XPButton30 of control ExtCmd was not a loaded control class.
+Line 52: The property name _ExtentX in DataGrid1 is invalid.
+Line 53: The property name _ExtentY in DataGrid1 is invalid.
+Line 54: The property name _Version in DataGrid1 is invalid.
+Line 55: The property name HeadLines in DataGrid1 is invalid.
+Line 56: The property name RowHeight in DataGrid1 is invalid.
+Line 65: The property name HeadFont in DataGrid1 is invalid.
+Line 75: The property name ColumnCount in DataGrid1 is invalid.
+Line 88: The property name Column00 in DataGrid1 is invalid.
+Line 101: The property name Column01 in DataGrid1 is invalid.
+Line 102: The property name SplitCount in DataGrid1 is invalid.
+Line 108: The property name Split0 in DataGrid1 is invalid.
+Line 164: The property name _ExtentX in Adodc1 is invalid.
+Line 165: The property name _ExtentY in Adodc1 is invalid.
+Line 166: The property name ConnectMode in Adodc1 is invalid.
+Line 167: The property name CursorLocation in Adodc1 is invalid.
+Line 168: The property name IsolationLevel in Adodc1 is invalid.
+Line 169: The property name ConnectionTimeout in Adodc1 is invalid.
+Line 170: The property name CommandTimeout in Adodc1 is invalid.
+Line 171: The property name CursorType in Adodc1 is invalid.
+Line 172: The property name LockType in Adodc1 is invalid.
+Line 173: The property name CommandType in Adodc1 is invalid.
+Line 174: The property name CursorOptions in Adodc1 is invalid.
+Line 175: The property name CacheSize in Adodc1 is invalid.
+Line 176: The property name MaxRecords in Adodc1 is invalid.
+Line 177: The property name BOFAction in Adodc1 is invalid.
+Line 178: The property name EOFAction in Adodc1 is invalid.
+Line 179: The property name ConnectStringType in Adodc1 is invalid.
+Line 183: The property name Orientation in Adodc1 is invalid.
+Line 185: The property name Connect in Adodc1 is invalid.
+Line 186: The property name OLEDBString in Adodc1 is invalid.
+Line 187: The property name OLEDBFile in Adodc1 is invalid.
+Line 188: The property name DataSourceName in Adodc1 is invalid.
+Line 189: The property name OtherAttributes in Adodc1 is invalid.
+Line 190: The property name UserName in Adodc1 is invalid.
+Line 191: The property name Password in Adodc1 is invalid.
+Line 192: The property name RecordSource in Adodc1 is invalid.
+Line 193: The property name Caption in Adodc1 is invalid.
+Line 203: The property name _Version in Adodc1 is invalid.
+Line 260: The property name _ExtentX in LoginCmd is invalid.
+Line 261: The property name _ExtentY in LoginCmd is invalid.
+Line 262: The property name AutoSelectTheme in LoginCmd is invalid.
+Line 263: The property name Caption in LoginCmd is invalid.
+Line 274: The property name UseImageShadow in LoginCmd is invalid.
+Line 275: The property name LicValid in LoginCmd is invalid.
+Line 315: The property name _ExtentX in ExtCmd is invalid.
+Line 316: The property name _ExtentY in ExtCmd is invalid.
+Line 317: The property name AutoSelectTheme in ExtCmd is invalid.
+Line 318: The property name Caption in ExtCmd is invalid.
+Line 328: The property name UseImageShadow in ExtCmd is invalid.
+Line 329: The property name LicValid in ExtCmd is invalid.

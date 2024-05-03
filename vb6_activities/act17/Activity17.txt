@@ -1,0 +1,4 @@
+Private Sub Command1_Click()
+Randomize
+Text1.Text = Int (Rnd() * 5) + 1
+End Sub

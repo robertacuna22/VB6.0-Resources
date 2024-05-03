@@ -1,0 +1,17 @@
+Private Sub Command1_Click()
+
+If MsgBox("Do you want to exit", vbInformation + vbYesNo) = vbYes Then
+End
+End If
+
+End Sub
+
+Private Sub Text1_Change()
+
+If Len(Text1.Text) >= 10 Then
+Command1.Enabled = True
+Else
+Command1.Enabled = False
+End If
+
+End Sub

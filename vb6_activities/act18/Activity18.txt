@@ -1,0 +1,18 @@
+Dim x As Integer
+
+Private Sub Command1_Click()
+Timer1.Enabled = True
+End Sub
+
+Private Sub Timer1_Timer()
+Randomize
+x = Int(Rnd() * 5)
+Image1(x).Left = Image1(x).Left + 100
+If Image1(x).Left >= 7990 Then
+Image1(x).Picture = LoadPicture(App.Path & "\" & "horsewinner.gif")
+Timer1.Enabled = False
+End If
+End Sub
+
+*Note: timer set interval 100
+

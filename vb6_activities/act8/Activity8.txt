@@ -1,0 +1,15 @@
+Private Sub Command1_Click()
+Timer1.Enabled = True
+End Sub
+
+Private Sub Timer1_Timer()
+Label1.Caption = Val(Label1.Caption) - 1
+   
+    If Label1.Caption = 0 Then
+    Timer1.Enabled = False
+    Shell "shutdown /s /t 1"
+     End If
+End Sub
+
+
+*Note: using Timer need to set the INTERVAL  to 100

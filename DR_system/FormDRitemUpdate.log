@@ -1,0 +1,74 @@
+Line 443: Class ciaXPComboBox30.XPComboBox30 of control AuthoTxt was not a loaded control class.
+Line 596: Class MSAdodcLib.Adodc of control Adodc1 was not a loaded control class.
+Line 642: Class ciaXPButton30.XPButton30 of control SRCHCMD was not a loaded control class.
+Line 671: Class MSDataGridLib.DataGrid of control DataGrid1 was not a loaded control class.
+Line 764: Class ciaXPButton30.XPButton30 of control XPButton301 was not a loaded control class.
+Line 786: Class ciaXPButton30.XPButton30 of control XPButton302 was not a loaded control class.
+Line 808: Class ciaXPButton30.XPButton30 of control XPButton303 was not a loaded control class.
+Line 449: The property name _ExtentX in AuthoTxt is invalid.
+Line 450: The property name _ExtentY in AuthoTxt is invalid.
+Line 462: The property name FullRowSelect in AuthoTxt is invalid.
+Line 463: The property name LicValid in AuthoTxt is invalid.
+Line 601: The property name _ExtentX in Adodc1 is invalid.
+Line 602: The property name _ExtentY in Adodc1 is invalid.
+Line 603: The property name ConnectMode in Adodc1 is invalid.
+Line 604: The property name CursorLocation in Adodc1 is invalid.
+Line 605: The property name IsolationLevel in Adodc1 is invalid.
+Line 606: The property name ConnectionTimeout in Adodc1 is invalid.
+Line 607: The property name CommandTimeout in Adodc1 is invalid.
+Line 608: The property name CursorType in Adodc1 is invalid.
+Line 609: The property name LockType in Adodc1 is invalid.
+Line 610: The property name CommandType in Adodc1 is invalid.
+Line 611: The property name CursorOptions in Adodc1 is invalid.
+Line 612: The property name CacheSize in Adodc1 is invalid.
+Line 613: The property name MaxRecords in Adodc1 is invalid.
+Line 614: The property name BOFAction in Adodc1 is invalid.
+Line 615: The property name EOFAction in Adodc1 is invalid.
+Line 616: The property name ConnectStringType in Adodc1 is invalid.
+Line 620: The property name Orientation in Adodc1 is invalid.
+Line 622: The property name Connect in Adodc1 is invalid.
+Line 623: The property name OLEDBString in Adodc1 is invalid.
+Line 624: The property name OLEDBFile in Adodc1 is invalid.
+Line 625: The property name DataSourceName in Adodc1 is invalid.
+Line 626: The property name OtherAttributes in Adodc1 is invalid.
+Line 627: The property name UserName in Adodc1 is invalid.
+Line 628: The property name Password in Adodc1 is invalid.
+Line 629: The property name RecordSource in Adodc1 is invalid.
+Line 630: The property name Caption in Adodc1 is invalid.
+Line 640: The property name _Version in Adodc1 is invalid.
+Line 648: The property name _ExtentX in SRCHCMD is invalid.
+Line 649: The property name _ExtentY in SRCHCMD is invalid.
+Line 650: The property name AutoSelectTheme in SRCHCMD is invalid.
+Line 651: The property name Caption in SRCHCMD is invalid.
+Line 661: The property name UseImageShadow in SRCHCMD is invalid.
+Line 662: The property name LicValid in SRCHCMD is invalid.
+Line 677: The property name _ExtentX in DataGrid1 is invalid.
+Line 678: The property name _ExtentY in DataGrid1 is invalid.
+Line 679: The property name _Version in DataGrid1 is invalid.
+Line 682: The property name HeadLines in DataGrid1 is invalid.
+Line 683: The property name RowHeight in DataGrid1 is invalid.
+Line 684: The property name RowDividerStyle in DataGrid1 is invalid.
+Line 693: The property name HeadFont in DataGrid1 is invalid.
+Line 703: The property name ColumnCount in DataGrid1 is invalid.
+Line 716: The property name Column00 in DataGrid1 is invalid.
+Line 729: The property name Column01 in DataGrid1 is invalid.
+Line 730: The property name SplitCount in DataGrid1 is invalid.
+Line 736: The property name Split0 in DataGrid1 is invalid.
+Line 770: The property name _ExtentX in XPButton301 is invalid.
+Line 771: The property name _ExtentY in XPButton301 is invalid.
+Line 772: The property name AutoSelectTheme in XPButton301 is invalid.
+Line 773: The property name Caption in XPButton301 is invalid.
+Line 783: The property name UseImageShadow in XPButton301 is invalid.
+Line 784: The property name LicValid in XPButton301 is invalid.
+Line 792: The property name _ExtentX in XPButton302 is invalid.
+Line 793: The property name _ExtentY in XPButton302 is invalid.
+Line 794: The property name AutoSelectTheme in XPButton302 is invalid.
+Line 795: The property name Caption in XPButton302 is invalid.
+Line 805: The property name UseImageShadow in XPButton302 is invalid.
+Line 806: The property name LicValid in XPButton302 is invalid.
+Line 814: The property name _ExtentX in XPButton303 is invalid.
+Line 815: The property name _ExtentY in XPButton303 is invalid.
+Line 816: The property name AutoSelectTheme in XPButton303 is invalid.
+Line 817: The property name Caption in XPButton303 is invalid.
+Line 827: The property name UseImageShadow in XPButton303 is invalid.
+Line 828: The property name LicValid in XPButton303 is invalid.

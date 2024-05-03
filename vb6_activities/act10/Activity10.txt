@@ -1,0 +1,4 @@
+Private Sub Command1_Click()
+Text2.SetFocus
+End Sub
+
